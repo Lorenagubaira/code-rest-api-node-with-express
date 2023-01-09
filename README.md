@@ -1,38 +1,38 @@
-# Crear REST API en node js con ***express***
+<!--hide-->
+# Create REST API in node js with ***express***
+<!--endhide-->
 
 ```
-🔥 Este ejercicio está diseñado para realizarlo de 1 persona.
+🔥 This exercise is designed to be performed by 1 person.
 ```
 
 <!-- <p align="center">
   <img height="200" src="assets/form.png" />
 </p> -->
 
-Tecnologías: Node, express, express-generator
+Technologies: Node, express, express-generator.
 
-Vamos a crear una REST API que en la misma podamos administrar un array de tareas desde node/express.
+We are going to create a REST API that in it we can manage an array of tasks from node/express.
 
-La idea es crear con node y express los diferentes endpoints o rutas para realizar un CRUD (Crear, Listar, Actualizar, Eliminar) sobre un array de tareas.
+The idea is to create with node and express the different endpoints or routes to perform a CRUD (Create, List, Update, Delete) on an array of tasks.
 
-## 🌱  Cómo iniciar este proyecto
+## 🌱  How to start this project
 
-a) Configura express desde cero.
+a) Configure express from scratch.
 
-b) Crear el proyecto usando express-generator.
+b) Create the project using express-generator.
 
-💡 Importante: guardar tu código en tu nuevo repositorio usando `add`, `commit` y `push`.
+💡 Important: save your code to your new repository using `add`, `commit` and `push`.
 
-## Estrategia
+## Strategy
 
-Tomate unos minutos para analizar 🤯 tu estrategia sobre ella, identifica los elemntos que vas a utilizar de express:
+Take a few minutes to analyze 🤯 your strategy on it, identify the elements that you are going to use as express:
 
-Una vez terminada la estrategia puedes empezar a codificar, 
-¡Empieza a programar 🎊!
+Once the strategy is finished you can start coding, start programming 🎊!
 
+## About the project we are going to build
 
-## Acerca del proyecto que vamos a construir
-
-En este proyecto debemos construir una REST API que exponga las siguientes 4 rutas a internet:
+In this project we must build a REST API that exposes the following 4 routes to the internet:
 
 ```txt
 GET /todos
@@ -43,7 +43,7 @@ DELETE /todos/:position
 
 ### GET /todos
 
-Debe devolver las tareas existentes en el array
+It should return the existing tasks in the array.
 
 ```javascript
 [
@@ -60,7 +60,7 @@ Debe devolver las tareas existentes en el array
 
 ### POST /todos
 
-Debemos poder enviar los siguientes datos al endpoint y poder agregar dichos datos al array de tareas.
+We must be able to send the following data to the endpoint and be able to add said data to the tasks array.
 
 ```javascript
 {
@@ -71,7 +71,7 @@ Debemos poder enviar los siguientes datos al endpoint y poder agregar dichos dat
 
 ### PUT /todos/:position
 
-Debemos poder enviar los siguientes datos al endpoint y poder actualizar dichos datos en el array de tareas segun su posición.
+We must be able to send the following data to the endpoint and be able to update said data in the task array according to its position.
 
 ```javascript
 {
@@ -80,8 +80,8 @@ Debemos poder enviar los siguientes datos al endpoint y poder actualizar dichos 
 }
 ```
 
-And return the updated list of todos.
+And return the updated list of all.
 
 ### DELETE /todos/:position
 
-Debera eliminar de nuestro array la tarea según la posición dada al endpoint en el url y retornar el listado de tareas actualizado.
+You should remove the task from our array according to the position given to the endpoint in the url and return the updated list of tasks.
