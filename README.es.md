@@ -1,4 +1,6 @@
+<!--hide-->
 # Crear REST API en node js con ***express***
+<!--endhide-->
 
 ```
 🔥 Este ejercicio está diseñado para realizarlo de 1 persona.
@@ -8,7 +10,7 @@
   <img height="200" src="assets/form.png" />
 </p> -->
 
-Tecnologías: Node, express, express-generator
+Tecnologías: Node, express, express-generator.
 
 Vamos a crear una REST API que en la misma podamos administrar un array de tareas desde node/express.
 
@@ -26,8 +28,7 @@ b) Crear el proyecto usando express-generator.
 
 Tomate unos minutos para analizar 🤯 tu estrategia sobre ella, identifica los elemntos que vas a utilizar de express:
 
-Una vez terminada la estrategia puedes empezar a codificar, 
-¡Empieza a programar 🎊!
+Una vez terminada la estrategia puedes empezar a codificar ¡Empieza a programar 🎊!
 
 
 ## Acerca del proyecto que vamos a construir
@@ -43,7 +44,7 @@ DELETE /todos/:position
 
 ### GET /todos
 
-Debe devolver las tareas existentes en el array
+Debe devolver las tareas existentes en el array.
 
 ```javascript
 [
