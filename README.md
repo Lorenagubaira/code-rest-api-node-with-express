@@ -16,6 +16,8 @@ We are going to create a REST API that in it we can manage an array of tasks fro
 
 The idea is to create with node and express the different endpoints or routes to perform a CRUD (Create, List, Update, Delete) on an array of tasks.
 
+<onlyfor saas="false" withBanner="false">
+  
 ## 🌱  How to start this project
 
 a) Configure express from scratch.
@@ -23,6 +25,8 @@ a) Configure express from scratch.
 b) Create the project using express-generator.
 
 💡 Important: save your code to your new repository using `add`, `commit` and `push`.
+
+</onlyfor>
 
 ## Strategy
 
