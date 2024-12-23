@@ -16,6 +16,8 @@ Vamos a crear una REST API que en la misma podamos administrar un array de tarea
 
 La idea es crear con node y express los diferentes endpoints o rutas para realizar un CRUD (Crear, Listar, Actualizar, Eliminar) sobre un array de tareas.
 
+<onlyfor saas="false" withBanner="false">
+  
 ## 🌱  Cómo iniciar este proyecto
 
 a) Configura express desde cero.
@@ -23,6 +25,8 @@ a) Configura express desde cero.
 b) Crear el proyecto usando express-generator.
 
 💡 Importante: guardar tu código en tu nuevo repositorio usando `add`, `commit` y `push`.
+
+</onlyfor>
 
 ## Estrategia
 
