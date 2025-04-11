@@ -1,1 +1,25 @@
-{"slug":"sample-slug","title":"Sample Project","preview":"https://github.com/4GeeksAcademy/react-tutorial-exercises/blob/master/preview.png","status":"draft","translations":["es","us"],"technologies":["some-technology"],"difficulty":"beginner","syntax":"javascript","duration":2,"description":"Describe your proyect with 250 chars max","autoPlay":false,"projectType":"project","validationAt":1673302137455,"validationStatus":"success"}
+{
+  "slug": "sample-slug",
+  "title": {
+		"us": "Sample Project",
+		"es": "Proyecto de muestra"
+	},
+  "preview": "https://github.com/4GeeksAcademy/react-tutorial-exercises/blob/master/preview.png",
+  "status": "draft",
+  "translations": ["es", "us"],
+  "technologies": ["node.js", "express", "rest-api", "http", "javascript", "json"],
+  "difficulty": "beginner",
+  "syntax": "javascript",
+  "duration": 2,
+  "description": {
+    "us": "Learn how to build a REST API with Node.js and Express that supports basic CRUD operations for managing a task list. This project focuses on practical route creation and HTTP method implementation.",
+    "es": "Aprende a construir una API REST con Node.js y Express que permita realizar operaciones CRUD básicas para gestionar una lista de tareas. El proyecto se centra en rutas prácticas e implementación de métodos HTTP."
+  },
+  "autoPlay": false,
+  "projectType": "project",
+  "validationAt": 1673302137455,
+  "validationStatus": "success",
+  "telemetry": {
+		"batch": "https://breathecode.herokuapp.com/v1/assignment/me/telemetry?asset_id=535"
+	}
+}
